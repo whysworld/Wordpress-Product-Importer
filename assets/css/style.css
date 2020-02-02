@@ -1,0 +1,46 @@
+/*.dz-max-files-reached {background-color: red};*/
+#uploader{
+	width: 500px; 
+	margin-top: 50px;
+	text-align: center;
+}
+.h-center{
+	display: flex !important;
+	justify-content: center;
+    margin-top: 30px;
+}
+.btn.red:not(.btn-outline) {
+    color: #fff;
+    background-color: #e7505a;
+    border-color: #e7505a;
+}
+.btn-block{
+    display: block;
+    width: 100%;
+    border-radius: 0 !important;
+    text-decoration: none;
+}
+button.btn[disabled]:hover {
+    cursor: crosshair !important;
+}
+button:disabled{
+    color: antiquewhite;
+}
+a.btn:hover{
+	cursor: pointer;
+}
+.dropzone .dz-preview .dz-image {
+    border-radius: 20px;
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    display: block;
+    z-index: 10;
+    border-radius: 0 !important;
+}
+#btn-product-upload{
+    padding: 10px 15px;
+    border-radius: 0;
+    font-size: 1rem;
+}
